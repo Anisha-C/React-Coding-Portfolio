@@ -1,10 +1,10 @@
 function AboutMe() {
 
     return (
-        <div id="about-me" class="intro">
+        <div id="about-me" className="intro">
             <h1 class="section-title secondary-border">About Me Page</h1>
             <br/>
-            <img src="../images/Headshot.JPG" alt="headshot" />
+            <img src="./images/Headshot.JPG" alt="headshot" />
             <p>
                 <br />
                 Mechanical engineer with a background in manufacturing, industrial design and robotics. Capable of working on

@@ -2,13 +2,13 @@ function Contact() {
 
   return (
     <section id="contact" className="hello">
-      <div class="flex-row">
-        <h2 class="section-title secondary-border">
+      <div className="flex-row">
+        <h2 className="section-title secondary-border">
           Contact me
         </h2>
       </div>
 
-      <div class="contact-info">
+      <div className="contact-info">
         <div>
           <h3>Questions</h3>
           <p>
@@ -26,16 +26,17 @@ function Contact() {
         </div>
       </div>
 
-      <div class="contact-form">
+      <div className="contact-form">
         <h3>Contact Form</h3>
-        <form>
+        <form action="https://formsubmit.co/anishacartagena525@gmail.com" method="POST">
           <label for="contact-name">Your Name</label>
-          <input type="text" id="contact-name" placeholder="Your Name" />
+          <input name="name" type="text" id="contact-name" placeholder="Your Name" />
 
           <label for="contact-message">Message</label>
-          <textarea id="contact-message" placeholder="Message"></textarea>
+          <textarea name="message" id="contact-message" placeholder="Message"></textarea>
+          <input type="hidden" name="_next" value="http://localhost:3000/thanks"/>
+            <button type="submit">Submit</button>
 
-          <button type="submit">Submit</button>
         </form>
       </div>
     </section >

@@ -6,12 +6,11 @@ function Project() {
         <h2 class="section-title secondary-border">
           Projects
         </h2>
-        <img src="./images/payup.PNG" alt="Pay up" />
       </div>
       <div className="websites">
         <article class="project">
           <a href="https://anisha-c.github.io/run-buddy2/">
-            {/* <img src="./assets/images/runbuddy.PNG" alt="Run buddy Website"> */}
+            <img src="./images/runbuddy.PNG" alt="Run buddy Website" />
           </a>
           <div class="project-bio">
             <h3 class="project-name">Run Buddy Website</h3>
@@ -23,7 +22,7 @@ function Project() {
         <article class="project">
 
           <a href="https://anisha-c.github.io/Web-Development-Accesibility/">
-            {/* <img src="./assets/images/Horiseon.PNG" alt="Web-Development-Accessibility"> */}
+            <img src="./images/Horiseon.PNG" alt="Web-Development-Accessibility" />
           </a>
           <div class="project-bio">
             <h3 class="project-name">Web-Development-Accessibility Project</h3>
@@ -37,7 +36,7 @@ function Project() {
         <article class="project">
 
           <a href="https://anisha-c.github.io/Pay-Up/">
-            {/* <img src="./assets/images/payup.PNG" alt="Pay up"> */}
+            <img src="./images/payup.PNG" alt="Pay up" />
           </a>
           <div class="project-bio">
             <h3 class="project-name">Pay Up</h3>
@@ -48,11 +47,11 @@ function Project() {
 
         <article class="project">
 
-          {/* <a href="https://fierce-dusk-64280.herokuapp.com/>
-<img src="./assets/images/payup.PNG" alt="Pay up"></a> */}
+          <a href="https://fierce-dusk-64280.herokuapp.com" >
+            <img src="./images/Bibli Studio.png" alt="Bibli-Studio Logo" width="200" height="200" /></a>
 
-          {/* <img src="./assets/images/Bibli Studio.png" alt="Bibli-Studio Logo" width="200" height="200">
-          </a> */}
+
+
           <div class="project-bio">
             <h3 class="project-name">Bibli Studios</h3>
             <br />
@@ -60,7 +59,7 @@ function Project() {
               instead of having to physically search for the movie you want to watch.</p>
           </div>
         </article>
-      </div>
+      </div >
     </section >
 
   )

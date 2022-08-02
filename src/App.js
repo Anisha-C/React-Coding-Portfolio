@@ -9,12 +9,16 @@ function App() {
   const [currentPage, setCurrentPage] = useState('aboutMe')
 
   return (
-    <div className="App">
-      <NavBar changePage={setCurrentPage}/>
-      <Header title="Anisha" subtitle="Welcome to my portfolio" />
+    <div >
+      <div className="header">
+        <Header className="" title="Anisha Cartagena Portfolio" subtitle="" />
+        <NavBar className= "" changePage={setCurrentPage} />
+      </div>
+      
       {currentPage === "aboutMe" ? <AboutMe />
         : currentPage === "project" ? <Project />
           : <Contact />}
+
     </div>
   );
 }
