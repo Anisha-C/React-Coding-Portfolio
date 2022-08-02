@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header';
+import NavBar from './components/NavBar';
+import { useState } from 'react';
+import AboutMe from './components/pages/AboutMe';
+import Project from './components/pages/Projects';
+import Contact from './components/pages/Contact';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('aboutMe')
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar changePage={setCurrentPage}/>
+      <Header title="Anisha" subtitle="Welcome to my portfolio" />
+      {currentPage === "aboutMe" ? <AboutMe />
+        : currentPage === "project" ? <Project />
+          : <Contact />}
     </div>
   );
 }
-
 export default App;
