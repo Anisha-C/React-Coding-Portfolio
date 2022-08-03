@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.908d0535.css",
-    "main.js": "/react-gh-pages/static/js/main.59f56e77.js",
-    "static/js/787.c697bbc4.chunk.js": "/react-gh-pages/static/js/787.c697bbc4.chunk.js",
-    "static/media/download.jpg": "/react-gh-pages/static/media/download.007b3bc87a886e3f07c5.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.908d0535.css.map": "/react-gh-pages/static/css/main.908d0535.css.map",
-    "main.59f56e77.js.map": "/react-gh-pages/static/js/main.59f56e77.js.map",
-    "787.c697bbc4.chunk.js.map": "/react-gh-pages/static/js/787.c697bbc4.chunk.js.map"
+    "main.css": "/React-Coding-Portfolio/static/css/main.264b6dd6.css",
+    "main.js": "/React-Coding-Portfolio/static/js/main.2aac2419.js",
+    "static/js/787.c697bbc4.chunk.js": "/React-Coding-Portfolio/static/js/787.c697bbc4.chunk.js",
+    "static/media/download.jpg": "/React-Coding-Portfolio/static/media/download.007b3bc87a886e3f07c5.jpg",
+    "index.html": "/React-Coding-Portfolio/index.html",
+    "main.264b6dd6.css.map": "/React-Coding-Portfolio/static/css/main.264b6dd6.css.map",
+    "main.2aac2419.js.map": "/React-Coding-Portfolio/static/js/main.2aac2419.js.map",
+    "787.c697bbc4.chunk.js.map": "/React-Coding-Portfolio/static/js/787.c697bbc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.908d0535.css",
-    "static/js/main.59f56e77.js"
+    "static/css/main.264b6dd6.css",
+    "static/js/main.2aac2419.js"
   ]
 }
