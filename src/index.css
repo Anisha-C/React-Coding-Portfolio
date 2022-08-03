@@ -26,7 +26,7 @@ body {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-image: url(/src/images/download.jpg);
+  background-image: url(/public/images/download.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
