@@ -1,6 +1,7 @@
 {
   "name": "react-portfolio-anishac",
   "version": "0.1.0",
+  "homepage": "https://anisha-c.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -39,11 +40,5 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  },
-  "https://anisha-c.github.io/{repo-name}": {
-    "name": "my-app",
-    "version": "0.1.0",
-    "homepage": "https://anisha-c.github.io/react-gh-pages",
-    "private": true
   }
 }
