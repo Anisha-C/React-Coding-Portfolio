@@ -55,7 +55,7 @@ function Project() {
           <div class="project-bio">
             <h3 class="project-name">Bibli Studios</h3>
             <br />
-            <p>The purpose of this website is To be able to see and search all the movies that you own in one place
+           git  <p>The purpose of this website is To be able to see and search all the movies that you own in one place
               instead of having to physically search for the movie you want to watch.</p>
 
             <article class="project">
