@@ -5,6 +5,11 @@ import AboutMe from './components/pages/AboutMe';
 import Project from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 
+
+
+
+
+
 function App() {
   const [currentPage, setCurrentPage] = useState('aboutMe')
 
@@ -12,14 +17,22 @@ function App() {
     <div >
       <div className="header">
         <Header className="" title="Anisha Cartagena Portfolio" subtitle="" />
-        <NavBar className= "" changePage={setCurrentPage} />
+        <NavBar className="" changePage={setCurrentPage} />
       </div>
-      
+
       {currentPage === "aboutMe" ? <AboutMe />
         : currentPage === "project" ? <Project />
           : <Contact />}
-
-    </div>
+      <div>
+        <a
+          href="./images/Anisha Cartagena Current Resume.pdf"
+          download
+        >
+      
+          Click to download resume
+        </a>
+      </div>
+    </div >
   );
 }
 export default App;

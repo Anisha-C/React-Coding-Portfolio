@@ -12,6 +12,10 @@ function Project() {
           <a href="https://anisha-c.github.io/run-buddy2/">
             <img src="./images/runbuddy.PNG" alt="Run buddy Website" />
           </a>
+          <a
+            href="https://github.com/Anisha-C/run-buddy2" >
+            Click to visit repository
+          </a>
           <div class="project-bio">
             <h3 class="project-name">Run Buddy Website</h3>
             <br />
@@ -24,6 +28,10 @@ function Project() {
           <a href="https://anisha-c.github.io/Web-Development-Accesibility/">
             <img src="./images/Horiseon.PNG" alt="Web-Development-Accessibility" />
           </a>
+
+          <a href="https://github.com/Anisha-C/Web-Development-Accesibility">
+            Click to visit repository
+          </a>
           <div class="project-bio">
             <h3 class="project-name">Web-Development-Accessibility Project</h3>
             <br />
@@ -35,8 +43,26 @@ function Project() {
 
         <article class="project">
 
+          <a href="https://anisha-c.github.io/Work-Day-Planner/">
+            <img src="./images/Workday" alt="Work Day Planner" />
+          </a>
+          <a href="https://github.com/Anisha-C/Work-Day-Planner">
+            Click to view repository
+          </a>
+          <div class="project-bio">
+            <h3 class="project-name">Pay Up</h3>
+            <br />
+            <p>The purpose of this website is to create a simple way for people in group outtings to spilt bills.</p>
+          </div>
+        </article>
+
+        <article class="project">
+
           <a href="https://anisha-c.github.io/Pay-Up/">
             <img src="./images/payup.PNG" alt="Pay up" />
+          </a>
+          <a href="https://github.com/Anisha-C/Pay-Up">
+            Click to view repository
           </a>
           <div class="project-bio">
             <h3 class="project-name">Pay Up</h3>
@@ -49,8 +75,7 @@ function Project() {
 
           <a href="https://fierce-dusk-64280.herokuapp.com" >
             <img src="./images/Bibli Studio.png" alt="Bibli-Studio Logo" width="200" height="200" /></a>
-
-
+          <a href="https://github.com/Anisha-C/Bibli-Studios">Click to view repository</a>
 
           <div class="project-bio">
             <h3 class="project-name">Bibli Studios</h3>
@@ -63,6 +88,7 @@ function Project() {
               <a href="https://fitandtrack.herokuapp.com/">
                 <img src="./images/fit_and_track.jpg" alt="Fit And Track" />
               </a>
+              <a href="https://github.com/Anisha-C/Fit-and-Track">Click to view repository</a>
               <div class="project-bio">
                 <h3 class="project-name">Fit And Track</h3>
                 <br />
