@@ -47,7 +47,7 @@ function Project() {
         <article class="project">
 
           <a href="https://anisha-c.github.io/Work-Day-Planner/">
-            <img src="./images/Workday" alt="Work Day Planner" />
+            <img src="./images/Workday.PNG" alt="Work Day Planner" />
           </a>
 
           <div class="project-bio">
@@ -89,7 +89,6 @@ function Project() {
               instead of having to physically search for the movie you want to watch.
             </p>
             <a href="https://github.com/Anisha-C/Bibli-Studios">
-              <br />
               Click to view repository
             </a>
 
@@ -98,9 +97,6 @@ function Project() {
               <a href="https://fitandtrack.herokuapp.com/">
                 <img src="./images/fit_and_track.jpg" alt="Fit And Track" />
               </a>
-              <a class="link" href="https://github.com/Anisha-C/Fit-and-Track">
-                <br />
-                Click to view repository</a>
               <div class="project-bio">
                 <h3 class="project-name">Fit And Track</h3>
                 <br />
