@@ -55,13 +55,13 @@ function Project() {
           <div class="project-bio">
             <h3 class="project-name">Bibli Studios</h3>
             <br />
-           git  <p>The purpose of this website is To be able to see and search all the movies that you own in one place
+            <p>The purpose of this website is To be able to see and search all the movies that you own in one place
               instead of having to physically search for the movie you want to watch.</p>
 
             <article class="project">
 
-              <a href="">
-                <img src="" alt="Fit And Track" />
+              <a href="https://fitandtrack.herokuapp.com/">
+                <img src="./images/fit_and_track.jpg" alt="Fit And Track" />
               </a>
               <div class="project-bio">
                 <h3 class="project-name">Fit And Track</h3>
