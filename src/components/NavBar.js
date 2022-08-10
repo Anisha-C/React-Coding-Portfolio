@@ -4,6 +4,7 @@ export default function NavBar(props){
         <nav style={{ display: "flex", listStyle: "none"}} className="navbar">
             <p className="navItem" onClick={() => props.changePage('aboutMe')}>About Me</p>
             <p className="navItem" onClick={() => props.changePage('project')}>Projects</p>
+            <p className="navItem" onClick={() => props.changePage('resume')}>Resume</p>
             <p className="navItem" onClick={() => props.changePage('contact')}>Contact</p>
         </nav>
     )

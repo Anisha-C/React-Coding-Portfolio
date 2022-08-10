@@ -4,6 +4,7 @@ import { useState } from 'react';
 import AboutMe from './components/pages/AboutMe';
 import Project from './components/pages/Projects';
 import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 
 
 
@@ -22,16 +23,8 @@ function App() {
 
       {currentPage === "aboutMe" ? <AboutMe />
         : currentPage === "project" ? <Project />
-          : <Contact />}
-      <div>
-        <a
-          href="./images/Anisha Cartagena Current Resume.pdf"
-          download
-        >
-      
-          Click to download resume
-        </a>
-      </div>
+          : currentPage === "resume" ? <Resume />
+            : <Contact />}
     </div >
   );
 }
